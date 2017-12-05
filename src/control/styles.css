@@ -1,5 +1,7 @@
 .letraCuenta{
 	-fx-font-family:"Poiret One";
+	-fx-font-size: 20px;
+	-fx-text-fill:white;
 }
 .letraM{
 	-fx-background-color: #fff;
@@ -9,6 +11,7 @@
 
 }
 .botones{
+	-fx-text-fill:#795548;
 	-fx-background-color: #fff;
 	-fx-background-radius:10px;
 }

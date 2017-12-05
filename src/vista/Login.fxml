@@ -32,7 +32,7 @@
                      <children>
                         <VBox layoutY="369.0" prefHeight="129.0" prefWidth="346.0" AnchorPane.bottomAnchor="0.0">
                            <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="43.0" prefWidth="88.0" styleClass="letraCuenta" text="Create Your Own Account" wrapText="true">
+                              <Label prefHeight="60.0" prefWidth="137.0" styleClass="letraCuenta" text="Create Your Own Account" wrapText="true">
                                  <VBox.margin>
                                     <Insets left="80.0" />
                                  </VBox.margin>
@@ -59,7 +59,7 @@
                         <JFXToggleButton text="UNDER 18?" toggleColor="#ff4081" />
                         <JFXButton onAction="#cambioSecundaria" styleClass="botonEmpezar" text="GET STARTED">
                            <tooltip>
-                              <Tooltip text="GET IN!" />
+                              <Tooltip text="OPEN FreeSolo" />
                            </tooltip>
                            <cursor>
                               <Cursor fx:constant="HAND" />
@@ -72,9 +72,9 @@
                      <children>
                         <JFXTextField focusColor="#212121" labelFloat="true" promptText="FIRST NAME" unFocusColor="#d7d7d7" />
                         <JFXTextField focusColor="#212121" labelFloat="true" promptText="LAST NAME" unFocusColor="#d7d7d7" />
-                        <JFXTextField focusColor="#212121" promptText="E-MAIL" unFocusColor="#d7d7d7" />
-                        <JFXPasswordField focusColor="#212121" promptText="PASSWORD" unFocusColor="#d7d7d7" />
-                        <JFXPasswordField focusColor="#212121" promptText="REPEAT-PASSWORD" unFocusColor="#d7d7d7" />
+                        <JFXTextField focusColor="#212121" labelFloat="true" promptText="E-MAIL" unFocusColor="#d7d7d7" />
+                        <JFXPasswordField focusColor="#212121" labelFloat="true" promptText="PASSWORD" unFocusColor="#d7d7d7" />
+                        <JFXPasswordField focusColor="#212121" labelFloat="true" promptText="REPEAT-PASSWORD" unFocusColor="#d7d7d7" />
                      </children>
                   </VBox>
                </children>

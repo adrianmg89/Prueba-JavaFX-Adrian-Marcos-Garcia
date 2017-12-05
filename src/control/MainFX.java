@@ -29,7 +29,7 @@ public class MainFX extends Application {
 			AnchorPane panel = carga.load();
 
 
-			Font.loadFont(getClass().getResourceAsStream("../vista/assets/fonts/PoiretOne-Regular"),20);
+			Font.loadFont(getClass().getResourceAsStream("fonts/PoiretOne-Regular"),20);
 			ventana1.setScene(new Scene(panel));
 			ventana1.show();
 		} catch (IOException e) {

@@ -10,14 +10,15 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
+import javafx.scene.media.MediaView;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 public class ControlFX implements Initializable{
-
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
-		// TODO Auto-generated method stub
 
 	}
 	@FXML
@@ -34,6 +35,7 @@ public class ControlFX implements Initializable{
 			Scene escena = new Scene(panel);
 			scena.setScene(escena);
 			scena.show();
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
