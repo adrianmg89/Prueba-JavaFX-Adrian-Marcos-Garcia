@@ -3,9 +3,12 @@
 <?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXPasswordField?>
 <?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -52,7 +55,20 @@
             </AnchorPane>
           <AnchorPane minHeight="400.0" minWidth="397.0" prefHeight="160.0" prefWidth="100.0">
                <children>
-                  <Label alignment="CENTER" layoutX="139.0" layoutY="52.0" prefHeight="73.0" prefWidth="69.0" styleClass="letraM" text="M" AnchorPane.rightAnchor="138.0" AnchorPane.topAnchor="52.0" />
+                  <HBox alignment="CENTER" layoutX="52.0" layoutY="393.0" prefHeight="107.0" prefWidth="276.0" spacing="10.0" AnchorPane.bottomAnchor="-2.0" AnchorPane.rightAnchor="69.0">
+                     <children>
+                        <JFXToggleButton text="UNDER 18?" toggleColor="#ff4081" />
+                        <JFXButton styleClass="botonEmpezar" text="GET STARTED">
+                           <tooltip>
+                              <Tooltip text="GET IN!" />
+                           </tooltip>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </JFXButton>
+                     </children>
+                  </HBox>
+                  <Label alignment="CENTER" layoutX="155.0" layoutY="53.0" prefHeight="73.0" prefWidth="69.0" styleClass="letraM" text="M" AnchorPane.rightAnchor="173.0" AnchorPane.topAnchor="53.0" />
                   <VBox layoutX="78.0" layoutY="163.0" prefHeight="230.0" prefWidth="276.0" spacing="20.0" AnchorPane.bottomAnchor="105.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="163.0">
                      <children>
                         <JFXTextField focusColor="#212121" labelFloat="true" promptText="FIRST NAME" unFocusColor="#d7d7d7" />

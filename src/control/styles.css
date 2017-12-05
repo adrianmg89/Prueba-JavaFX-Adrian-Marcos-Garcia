@@ -11,10 +11,14 @@
 .botones{
 	-fx-background-color: #fff;
 	-fx-background-radius:10px;
-
 }
 .botonesSin{
-
+	-fx-text-fill:white;
 	-fx-border-color: #fff;
 	-fx-border-radius:10px;
+}
+.botonEmpezar{
+	-fx-border-radius:10px;
+	-fx-text-fill:#795548;
+	-fx-border-color:#795548;
 }
