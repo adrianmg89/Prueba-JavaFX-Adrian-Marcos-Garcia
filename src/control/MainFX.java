@@ -28,6 +28,7 @@ public class MainFX extends Application {
 			FXMLLoader carga = new FXMLLoader(getClass().getResource("../vista/Login.fxml"));
 			AnchorPane panel = carga.load();
 
+
 			Font.loadFont(getClass().getResourceAsStream("../vista/assets/fonts/PoiretOne-Regular"),20);
 			ventana1.setScene(new Scene(panel));
 			ventana1.show();
