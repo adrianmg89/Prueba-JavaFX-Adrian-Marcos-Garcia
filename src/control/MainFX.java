@@ -12,7 +12,7 @@ import javafx.scene.text.Font;
 /**
  * Proyecto de examen JAVAFX
  * @author admin
- * @version 
+ * @version 1.0.0
  * @see vista.ControlFX
  *
  */

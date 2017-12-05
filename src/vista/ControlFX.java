@@ -16,6 +16,11 @@ import javafx.scene.media.MediaView;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
+/**
+ *
+ * @author admin
+ * @see MainFX
+ */
 public class ControlFX implements Initializable{
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
