@@ -21,10 +21,15 @@ public class ControlFX implements Initializable{
 	public void initialize(URL location, ResourceBundle resources) {
 
 	}
+
+
 	@FXML
 	public void cerrarPantalla(){
 		System.exit(0);
 	}
+	/**
+	 * Creacion de la pantalla secundaria
+	 */
 	@FXML
 	public void cambioSecundaria() {
 		try {

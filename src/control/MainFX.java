@@ -9,7 +9,13 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.text.Font;
-
+/**
+ * Proyecto de examen JAVAFX
+ * @author admin
+ * @version 
+ * @see vista.ControlFX
+ *
+ */
 public class MainFX extends Application {
 	Stage ventana1;
 
@@ -22,7 +28,9 @@ public class MainFX extends Application {
 			e.printStackTrace();
 		}
 	}
-
+/**
+ * Carga de la pantalla principal
+ */
 	private void pantallaPrincipal() {
 		try {
 			FXMLLoader carga = new FXMLLoader(getClass().getResource("../vista/Login.fxml"));

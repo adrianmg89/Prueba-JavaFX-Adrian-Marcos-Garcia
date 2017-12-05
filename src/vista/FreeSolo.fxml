@@ -83,7 +83,7 @@
                               <Image url="@assets/images/freesolo.png" />
                            </image>
                         </ImageView>
-                        <ImageView fitHeight="90.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                        <ImageView fitHeight="90.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true" styleClass="imagen" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                            <image>
                               <Image url="@assets/images/escalada9.jpg" />
                            </image>
