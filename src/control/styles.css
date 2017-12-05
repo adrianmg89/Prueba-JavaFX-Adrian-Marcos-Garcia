@@ -1,0 +1,20 @@
+.letraCuenta{
+	-fx-font-family:"Poiret One";
+}
+.letraM{
+	-fx-background-color: #fff;
+	-fx-background-radius:50px;
+	-fx-text-fill:#FF4081;
+	-fx-font-size: 50px;
+
+}
+.botones{
+	-fx-background-color: #fff;
+	-fx-background-radius:10px;
+
+}
+.botonesSin{
+
+	-fx-border-color: #fff;
+	-fx-border-radius:10px;
+}
