@@ -25,3 +25,6 @@
 	-fx-text-fill:#795548;
 	-fx-border-color:#795548;
 }
+.imagen:hover {
+	-fx-opacity:0.5;
+}
